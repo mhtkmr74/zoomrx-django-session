@@ -8,13 +8,13 @@
 
 ## Requirements
 Install Python  
-Linux\
-`sudo apt install python3.7`
-Mac\
-`brew install python3.7`
+Linux  
+`sudo apt install python3.7`  
+Mac  
+`brew install python3.7`  
 
 Install Django  
-`pip install django`
+`pip install django`  
 
 ## Steps to perform
 

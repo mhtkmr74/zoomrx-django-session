@@ -11,5 +11,4 @@ def person_details(request):
     person_result = list(Person.objects.all().values())
     template = loader.get_template('result.html')
     html_message = template.render({'result': person_result})
-    print(html_message)
     return HttpResponse(html_message)
