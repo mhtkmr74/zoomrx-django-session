@@ -1,0 +1,36 @@
+<HTML>
+
+<HEAD>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</HEAD>
+
+<body>
+    <br>
+    <h1> Person Details table <h1>
+        <table>
+            <tr>
+                <th> id </th>
+                <th> first_name </th>
+                <th> last_name </th>
+                <th> mobile_number </th>
+                <th> address </th>
+            </tr>
+            {% for data in result %}
+            <tr>
+                <td> {{data.id}} </td>
+                <td> {{data.first_name}} </td>
+                <td> {{data.last_name}} </td>
+                <td> {{data.mobile_number}} </td>
+                <td> {{data.address}} </td>
+            </tr>
+            {% endfor %}
+        </table> <br>
+</body>
+
+</html>
