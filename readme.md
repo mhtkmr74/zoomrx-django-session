@@ -1,27 +1,30 @@
+# Django Tutorial
+
+----
+## Description
+> Basic django project in which I am creating a person table via django model and  fetching it's data in view. After fetching the resultant data from table, I will be formatting response in template and sending it as HttpResponse.
+
+----
+
+## Requirements
 Install Python
-
-sudo apt install python3.7(Linux)
-
-brew install python3.7 (MAC)
-
-
+Linux
+`sudo apt install python3.7`
+Mac
+`brew install python3.7`
 Install Django
+`pip install django`
 
-pip install django
+## Steps to perform
 
+`python3 manage.py makemigrations`
 
-Description
-Basic django project in which I am creating a person table via django model and  fetching it's data in view. After fetching the resultant data from table will be formatted and send as HttpResponse.
+`python3 manage.py migrate`
 
-Steps to perform
+`python3 manage.py runserver`
 
-python3 manage.py makemigrations
+## Evaluate result/Check client
 
-python3 manage.py migrate
+`localhost:8000/home`
 
-python3 manage.py runserver
-
-Evaluate result on
-
-localhost:8000/home
 
